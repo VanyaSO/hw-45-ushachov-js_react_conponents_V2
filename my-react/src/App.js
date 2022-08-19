@@ -1,10 +1,11 @@
 import './App.css';
-import './components/Card'
-import Card from "./components/Card";
+import Props from "./components/Props";
 
 function App() {
   return (
-    <Card />
+      <div className="App">
+        <Props title={"Заголовок"} text={"Тут просто текст"}/>
+      </div>
   );
 }
 
