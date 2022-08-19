@@ -4,10 +4,10 @@ function Props(props) {
             <div className="card-body">
                 <h4 className="card-title">{props.title}</h4>
                 <p className="card-text">{props.text}</p>
+                <p>-----------------------------------</p>
             </div>
         </div>
     );
 }
-
 
 export default Props;
