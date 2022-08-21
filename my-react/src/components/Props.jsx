@@ -6,8 +6,8 @@ class Props extends React.Component {
             <div className="App">
                 <div className="card">
                     <div className="card-body">
-                        <h4 className="card-title">{this.props.title}</h4>
-                        <p className="card-text">{this.props.text}</p>
+                        {this.props.title ? <h4>{this.props.title}</h4> : null}
+                        {this.props.text ? <p>{this.props.text}</p> : null}
                         <p>-----------------------------------</p>
                     </div>
                 </div>
